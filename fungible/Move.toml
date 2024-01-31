@@ -1,11 +1,11 @@
 [package]
 name = "stsui"
 version = "0.0.1"
-published-at="0x49ea681b21134ee2724f189291e33f7df858a66c3ac83482e76ed96dbc963bec"
+# published-at="0x49ea681b21134ee2724f189291e33f7df858a66c3ac83482e76ed96dbc963bec"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "devnet" }
 
 [addresses]
-stsui = "0x49ea681b21134ee2724f189291e33f7df858a66c3ac83482e76ed96dbc963bec"
+stsui = "0x0"
 sui =  "0x2"
